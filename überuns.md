@@ -2,7 +2,7 @@
 layout: page
 title: Über uns
 navigation: true
-permalink: /about
+permalink: /about/
 order: 2
 ---
 
