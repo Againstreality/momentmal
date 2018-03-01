@@ -6,8 +6,9 @@ permalink: /about/
 order: 2
 ---
 
+# MOMENT MAL !
 
-# Aktion für eine offene Gesellschaft
+### Aktion für eine offene Gesellschaft
 Unter dem Arbeitstitel Moment Mal! Aktion für eine offene Gesellschaft hat sich ein Freundes- und Bekanntenkreis aus unterschiedlichsten Spektren der Wiesbadener Stadtgesellschaft zusammengefunden. Uns eint, dass wir die Mobilisierung der AfD und der mit ihr verwobenen extrem rechten, fremdenfeindlichen oder verschwörungstheoretischen Gruppen und Bewegungen als ernstzunehmende Bedrohung der Demokratie wahrnehmen. 
 
 Wir sind davon überzeugt, dass die Antworten auf die drängenden Fragen unserer Gesellschaft nur in kooperativen demokratischen Prozessen entwickelt werden können, auf der Basis von allgemeinen Menschenrechten, fairen inklusiven Institutionen und Respekt für die Vielgestaltigkeit des Lebens. Die offene Gesellschaft ist hierfür die Geschäftsgrundlage. 
