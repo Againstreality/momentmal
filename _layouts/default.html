@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta name="ROBOTS" content="NOINDEX, NOFOLLOW">
+      <meta charset="utf-8">
+      <title>{% if page.title %}{{ page.title }} • {{ site.name }}{% else %}{{ site.name }}{% endif %}</title>
+      <meta name="description" content="{{ site.description }}">
+      <meta name="author" content="{{ site.author }}">
+      <meta name="viewport" content=
+         "width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="{{ site.baseurl }}/css/normalize.css" type=
+         "text/css">
+      <link rel="stylesheet" href="{{ site.baseurl }}/css/skeleton.css" type=
+         "text/css">
+      <link rel="stylesheet" href="{{ site.baseurl }}/css/custom.css" type="text/css">
+      <link rel="icon" type="image/png" href="{{ site.baseurl }}/images/favicon.ico">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-pinterest {
+  background: #cb2027;
+  color: white;
+}
+
+.fa-snapchat-ghost {
+  background: #fffc00;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.fa-skype {
+  background: #00aff0;
+  color: white;
+}
+
+.fa-android {
+  background: #a4c639;
+  color: white;
+}
+
+.fa-dribbble {
+  background: #ea4c89;
+  color: white;
+}
+
+.fa-vimeo {
+  background: #45bbff;
+  color: white;
+}
+
+.fa-tumblr {
+  background: #2c4762;
+  color: white;
+}
+
+.fa-vine {
+  background: #00b489;
+  color: white;
+}
+
+.fa-foursquare {
+  background: #45bbff;
+  color: white;
+}
+
+.fa-stumbleupon {
+  background: #eb4924;
+  color: white;
+}
+
+.fa-flickr {
+  background: #f40083;
+  color: white;
+}
+
+.fa-yahoo {
+  background: #430297;
+  color: white;
+}
+
+.fa-soundcloud {
+  background: #ff5500;
+  color: white;
+}
+
+.fa-reddit {
+  background: #ff5700;
+  color: white;
+}
+
+.fa-rss {
+  background: #ff6600;
+  color: white;
+}
+</style>
+   </head>
+   <body>
+      <div class="container">
+         <div style="margin-top: 3%">
+            <div id="class=twelve">
+               <ul id="menu">
+			<li> <a href="https://momentmal.org"><img src="/images/logo.png" alt="Logo" width="175px" height= "100px" display="inline-block" align="left" /></a></li>
+			 {% assign sorted_pages = site.pages | sort:"order" %}
+			 {% for node in sorted_pages %}
+			                <li><a  href="{{ site.baseurl }}{{ node.url }}"><button>{{ node.title }}</button></a></li>
+                         
+		 {% endfor %}
+		  <li> <a href="https://www.facebook.com/MomentmalWi/" class="fa fa-facebook"></a>
+<a href="https://twitter.com/momentmal_Wi" class="fa fa-twitter"></a>
+<a href="https://www.youtube.com/channel/UCoszFBnOx2bOGgb_iJHH7vQ/featured?view_as=subscriber" class="fa fa-youtube"></a>	                 
+               </ul>
+            </div>
+         </div>
+         <div class="row">
+            <div style="margin-top: 5%">
+               {{ content }}
+            </div>
+         </div>
+      </div>
+      <div class="container">
+            <div id="class=twelve">
+               <ul id="footer">
+                      links zu dieser Seite<br/>
+	                <li><a  href="https://www.cccwi.de{{ page.url }}">web</a></li><!-- |
+	                <li><a  href="http://xxxxx.onion{{ page.url }}">Tor</a></li> |
+					<li><a  href="http://127.0.0.1:8080/ipns/QmWbfooba{{ page.url }}">ipfs</a></li>-->
+               </ul>
+         </div>
+   </body>
+</html>

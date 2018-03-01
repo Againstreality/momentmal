@@ -1,0 +1,277 @@
+#news {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#news td, #news th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#news tr:nth-child(even){background-color: #f2f2f2;}
+
+#news tr:hover {background-color: #ddd;}
+
+#news th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #ffb54f;
+    color: white;
+}
+
+#footer ul {
+	list-style-type: none;
+}
+#footer li {
+    display:inline;
+}
+
+#menu ul {
+	list-style-type: none;
+}
+#menu li {
+    display:inline;
+}
+
+body.home a.home button, body.project a.project button, body.contact a.contact button {
+	text-decoration: underline;
+	border-color: black;
+}
+
+.radio-toolbar input[type="radio"] {
+	    display:none;
+    }
+
+    .radio-toolbar label {
+	display:inline-block;
+	       height: 38px;
+	         padding: 0 30px;
+		   color: #555;
+		     text-align: center;
+		       font-size: 11px;
+		         font-weight: 600;
+			   line-height: 38px;
+			     letter-spacing: .1rem;
+			       text-transform: uppercase;
+			         text-decoration: none;
+				   white-space: nowrap;
+				     background-color: transparent;
+				       border-radius: 4px;
+				         border: 1px solid #bbb;
+					   cursor: pointer;
+					     box-sizing: border-box; }
+
+			.radio-toolbar input[type="radio"]:checked + label {
+	text-decoration: underline;
+	border-color: black;
+}
+
+.radio-toolbar input[type="radio"] {
+	    display:none;
+    }
+
+    .radio-toolbar label {
+	display:inline-block;
+	       height: 38px;
+	         padding: 0 30px;
+		   color: #555;
+		     text-align: center;
+		       font-size: 11px;
+		         font-weight: 600;
+			   line-height: 38px;
+			     letter-spacing: .1rem;
+			       text-transform: uppercase;
+			         text-decoration: none;
+				   white-space: nowrap;
+				     background-color: transparent;
+				text-decoration: underline;
+			    }
+
+.hidden{
+	display:none;
+}
+
+input[value="1"]:checked ~ div[id="hidden1"]{
+	display:block;
+}
+input[value="2"]:checked ~ div[id="hidden2"]{
+	display:block;
+}
+input[value="3"]:checked ~ div[id="hidden3"]{
+	display:block;
+}
+
+#menu {
+    border-bottom: 1px dotted #708090;
+    border-radius: 0px;
+    padding: 2px;
+    text-align: center;
+}
+
+#footer {
+    border-top: 0.2px dotted #708090;
+    padding-top: 20px;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 80%;
+}
+
+
+
+#about {
+    border: 1px solid #708090;
+    margin: 0px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+
+@media screen and (max-width : 760px){
+	#bigtb tr, #bigtb th, #bigtb td {
+ 		display: block;
+	}
+
+	#bigtb tr {
+		padding: 1em;
+		border-top: 0 none;
+	}
+
+	#bigtb th {
+		padding: 0;
+	}
+
+	#bigtb td {
+		padding: 1em 0 0;
+	}
+	#menu {
+		border: none;
+	}
+	     .radio-toolbar label {
+		                     width: 100%;
+				             }
+
+	ul li button {
+		width: 100%;
+	}
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-pinterest {
+  background: #cb2027;
+  color: white;
+}
+
+.fa-snapchat-ghost {
+  background: #fffc00;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.fa-skype {
+  background: #00aff0;
+  color: white;
+}
+
+.fa-android {
+  background: #a4c639;
+  color: white;
+}
+
+.fa-dribbble {
+  background: #ea4c89;
+  color: white;
+}
+
+.fa-vimeo {
+  background: #45bbff;
+  color: white;
+}
+
+.fa-tumblr {
+  background: #2c4762;
+  color: white;
+}
+
+.fa-vine {
+  background: #00b489;
+  color: white;
+}
+
+.fa-foursquare {
+  background: #45bbff;
+  color: white;
+}
+
+.fa-stumbleupon {
+  background: #eb4924;
+  color: white;
+}
+
+.fa-flickr {
+  background: #f40083;
+  color: white;
+}
+
+.fa-yahoo {
+  background: #430297;
+  color: white;
+}
+
+.fa-soundcloud {
+  background: #ff5500;
+  color: white;
+}
+
+.fa-reddit {
+  background: #ff5700;
+  color: white;
+}
+
+.fa-rss {
+  background: #ff6600;
+  color: white;
+}

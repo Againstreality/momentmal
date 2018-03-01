@@ -1,0 +1,12 @@
+title: "CCCWI e.V."
+lang: "de"
+markdown: kramdown
+highlighter: rouge
+name: "Chaos Computer Club Wiesbaden"
+author: "anonymous"
+permalink: pretty
+description: "fixme"
+#baseurl: "/"
+exclude:
+  - Gemfile
+  - Gemfile.lock

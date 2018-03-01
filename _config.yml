@@ -1,0 +1,14 @@
+title: "CCCWI e.V."
+lang: "de"
+markdown: kramdown
+highlighter: rouge
+name: "Moment mal Wiesbaden"
+author: "anonymous"
+permalink: pretty
+description: "Moment mal Wiesbaden"
+#baseurl: "/"
+exclude:
+  - Gemfile
+  - Gemfile.lock
+facebook_username: MomentmalWi
+youtube_username: Momentmal
