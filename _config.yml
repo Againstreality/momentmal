@@ -6,7 +6,7 @@ name: "Moment mal Wiesbaden"
 author: "anonymous"
 permalink: pretty
 description: "Moment mal Wiesbaden"
-#baseurl: "/"
+baseurl: "https://momentmal.org"
 exclude:
   - Gemfile
   - Gemfile.lock
