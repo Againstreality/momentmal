@@ -2,10 +2,10 @@ title: "CCCWI e.V."
 lang: "de"
 markdown: kramdown
 highlighter: rouge
-name: "Chaos Computer Club Wiesbaden"
+name: "Moment mal Wiesbaden"
 author: "anonymous"
 permalink: pretty
-description: "fixme"
+description: "Moment mal Wiesbaden"
 #baseurl: "/"
 exclude:
   - Gemfile
